@@ -37,14 +37,9 @@
     --font-bold: 700;
     --font-black: 900;
 
-    --text-base: 1.6rem;
-    --text-small: 1.4rem;
+    --text-base: 1rem;
+    --text-small: 0.875rem;
 }
-
-html {
-    font-size: 62.5%;
-}
-
 *,
 *::before,
 *::after {
@@ -92,10 +87,9 @@ h6 {
 
 .btn-base {
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.625rem;
     cursor: pointer;
-    letter-spacing: 0.025rem;
-    font-size: 1.5rem;
+    letter-spacing: -0.02em;
     font-family: var(--font-primary);
     font-weight: var(--font-bold);
 }
@@ -120,9 +114,6 @@ main {
 }
 
 .order-wrapper {
-    --content-padding: 3.2rem 2.4rem;
-    --order-fs-title: 2.2rem;
-    --order-fs-description: 1.5rem;
     border-radius: 2rem;
     overflow: hidden;
     margin: 7.1rem 2.4rem 0 2.4rem;
@@ -132,37 +123,38 @@ main {
 }
 
 .order-content-wrapper {
-    padding: var(--content-padding);
+    padding: 2rem 1.5rem;
 }
 
 .order-title {
-    font-size: var(--order-fs-title);
+    font-size: clamp(1.375rem, 4.8vw + 0.4rem, 1.75rem);
     font-weight: var(--font-black);
     text-align: center;
     color: var(--color-dark-blue);
+    margin-bottom: 1.25rem;
 }
 
 .order-description {
     max-width: 90%;
-    font-size: var(--order-fs-description);
     text-align: center;
-    margin: 1.7rem auto 2.4rem auto;
-    line-height: 1.66666666667;
-    letter-spacing: 0.005rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5625;
+    letter-spacing: -0.02em;
 }
 
 .order-plan-wrapper {
-    --content-padding: 1.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: var(--content-padding);
     background-color: var(--color-very-pale-blue);
-    border-radius: 1.2rem;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .order-plan-icon {
-    margin-right: 2rem;
+    margin-right: 1.25rem;
 }
 
 .order-plan-wrapper > div {
@@ -172,35 +164,31 @@ main {
 
 .order-plan-typem,
 .order-plan-price {
-    font-size: 1.4rem;
-    line-height: 1.6;
-    letter-spacing: 0.02rem;
+    font-size: var(--text-small);
 }
 
 .order-plan-type {
     font-weight: var(--font-black);
     color: var(--color-dark-blue);
-    letter-spacing: 0.02rem;
-    font-size: var(--text-small);
 }
 
 .order-plan-link {
     display: block;
     color: var(--color-bright-blue);
     font-weight: var(--font-bold);
-    letter-spacing: 0.01rem;
-    font-size: 1.3rem;
+    font-size: 0.8125rem;
     transition: 200ms ease;
 }
 
 .order-process-btn {
-    padding: 1.6rem 0;
+    padding-top: 1rem;
+    padding-bottom: 1.125rem;
     width: 100%;
     background-color: var(--color-bright-blue);
     color: var(--color-white);
-    margin: 2.4rem 0;
     box-shadow: 0px 16px 32px 0px rgba(56, 41, 224, 0.3);
     transition: 200ms ease;
+    margin-bottom: 1.5rem;
 }
 
 .order-cancel-btn {
@@ -222,34 +210,5 @@ main {
 
     .order-cancel-btn:hover {
         color: var(--color-dark-blue);
-    }
-}
-
-@media screen and (min-width: 540px) {
-    body {
-        background-image: url("./assets/pattern-background-desktop.svg");
-    }
-    .order-wrapper {
-        margin-top: 10.2rem;
-        --content-padding: 4.7rem 4.8rem 4.8rem 4.9rem;
-        --order-fs-title: 2.8rem;
-        --order-fs-description: 1.6rem;
-    }
-
-    .order-plan-wrapper {
-        --content-padding: 2.5rem 2.4rem;
-    }
-    .order-plan-type,
-    .order-plan-price {
-        font-size: 1.6rem;
-    }
-    .order-plan-link {
-        font-size: 1.4rem;
-    }
-    .order-process-btn {
-        margin: 3.2rem 0;
-    }
-    .order-description {
-        margin-bottom: 2rem;
     }
 }
