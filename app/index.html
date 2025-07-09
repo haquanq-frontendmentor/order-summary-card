@@ -9,29 +9,27 @@
   </head>
   <body>
     <main>
-      <article class="order-wrapper">
-        <picture class="order-image-wrapper">
-          <img src="./assets/illustration-hero.svg" alt="hero-image" />
-        </picture>
-        <div class="order-content-wrapper">
-          <h2 class="order-title">Order Summary</h2>
-          <p class="order-description">
+      <section class="order__card">
+        <img class="order__image" src="./assets/illustration-hero.svg" alt="hero-illustration" aria-hidden="true" />
+        <div class="order__content">
+          <h2 class="order__title">Order Summary</h2>
+          <p class="order__description">
             You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
           </p>
-          <section class="order-plan-wrapper">
-            <div>
-              <img class="order-plan-icon" src="./assets/icon-music.svg" alt="music-icon" />
-              <div>
-                <p class="order-plan-type">Annual Plan</p>
-                <p class="order-plan-price">$55.99/year</p>
-              </div>
+          <div class="order__detail">
+            <div class="order__plan-wrapper">
+              <img class="order__icon" src="./assets/icon-music.svg" alt="music-icon" aria-hidden="true" />
+              <p class="order__plan">
+                <span class="order__plan--name">Annual Plan</span>
+                <span class="order__plan--price">$55.99/year</span>
+              </p>
             </div>
-            <a class="order-plan-link" href="">Change</a>
-          </section>
-          <button class="btn-base order-process-btn">Process to Payment</button>
-          <button class="btn-base order-cancel-btn">Cancel Order</button>
+            <a class="order__change-btn" href="">Change</a>
+          </div>
+          <a class="order__continue-btn" href="">Proceed to Payment</a>
+          <a class="order__cancel-btn" href="">Cancel Order</a>
         </div>
-      </article>
+      </section>
     </main>
   </body>
 </html>
