@@ -3,32 +3,57 @@
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### The challenge
+## Table of contents
 
-- No access to design files :expressionless:
+- [Project overview](#rocket-project-overview)
+- [Development workflow](#boat-development-workflow)
+- [Working in this repository](#astronaut-working-in-this-repository)
+- [License](#page_with_curl-license)
 
-Users should be able to:
+## :rocket: Project overview
 
-- See hover states for interactive elements :yum:
+### Challenge equirements
 
-### Solution
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-- Built with: `HTML` `CSS`
-- Mobile first workflow
+### Implemented features
 
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-p3jxyggcid) :link: [`Live Site Link`](https://haquanq.github.io/fm-order-summary-component/)
+Accessibility
+
+- [x] Responsive accross different devices
+- [x] Interactive elements have clear indicator when focused
+
+### Preview
 
 ![](./.docs/design/desktop-design.jpg)
 
-## Working in `fm-order-summary-component` repository
+## :boat: Development workflow
 
-### Packages being used
+### Approach
 
-- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
+Developed with mobile-first workflow, followed with [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
+
+### Built with
+
+| Tool          | Note                               |
+| ------------- | ---------------------------------- |
+| `HTML`        | Standard markup language           |
+| `CSS`         | Vanilla CSS                        |
+| `BrowserSync` | Development server, live reloading |
+
+## :astronaut: Working in this repository
+
+### Presequisites
+
+Having these tools installed:
+
+- Git (prefer lastest LTS version)
+- NodeJS (prefer latest LTS version)
 
 ### Clone this project to your machine
 
-Make sure you have Git installed in your system, open new terminal, run the following command:
+Open new terminal, run the following command:
 
 ```
 git clone https://github.com/haquanq/fm-order-summary-component.git
@@ -47,3 +72,7 @@ In terminal, run `npm run dev` to start development server:
 ```
 npm run dev
 ```
+
+## :page_with_curl: License
+
+This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
