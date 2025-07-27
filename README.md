@@ -3,12 +3,29 @@
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<p>
+  <a href="https://www.frontendmentor.io/solutions/only-html-and-css-p3jxyggcid">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/order-summary-component/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
+
 ## Table of contents
 
 - [Project overview](#rocket-project-overview)
 - [Development workflow](#boat-development-workflow)
 - [Working in this repository](#astronaut-working-in-this-repository)
-- [License](#page_with_curl-license)
 
 ## :rocket: Project overview
 
@@ -72,7 +89,3 @@ In terminal, run `npm run dev` to start development server:
 ```
 npm run dev
 ```
-
-## :page_with_curl: License
-
-This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
