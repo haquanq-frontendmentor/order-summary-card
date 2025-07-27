@@ -43,7 +43,7 @@ Accessibility
 
 ### Preview
 
-![](./.docs/design/desktop-design.jpg)
+![](./docs/design/desktop-design.jpg)
 
 ## :stars: Development workflow
 
