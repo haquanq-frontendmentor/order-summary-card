@@ -49,15 +49,16 @@ Accessibility
 
 ### Approach
 
-Developed with mobile-first workflow, followed with [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
+Site built with mobile-first workflow to prioritize mobile devices, made accessible using [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
 
-### Built with
+### Tools
 
-| Tool          | Note                               |
-| ------------- | ---------------------------------- |
-| `HTML`        | Standard markup language           |
-| `CSS`         | Vanilla CSS                        |
-| `BrowserSync` | Development server, live reloading |
+- **HTML + CSS:** vanilla CSS for styling.
+- **Browsersync:** live development server (sync files changes).
+
+### Deployment
+
+- Deployed on github page using Github Actions (manually triggered).
 
 ## :astronaut: Working in this repository
 
