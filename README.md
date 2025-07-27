@@ -74,7 +74,7 @@ Having these tools installed:
 Open new terminal, run the following command:
 
 ```
-git clone https://github.com/haquanq/fm-order-summary-component.git
+git clone https://github.com/haquanq-frontendmentor/order-summary-component.git
 ```
 
 Then, run `npm install` to install all dependencies.
