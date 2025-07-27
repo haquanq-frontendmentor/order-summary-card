@@ -34,7 +34,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Implemented features
+### Todo
 
 Accessibility
 
@@ -83,7 +83,7 @@ Then, run `npm install` to install all dependencies.
 npm install
 ```
 
-### Development workflow
+### Start development server
 
 In terminal, run `npm run dev` to start development server:
 
